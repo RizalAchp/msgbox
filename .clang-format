@@ -1,0 +1,34 @@
+---
+BasedOnStyle: LLVM
+Standard: c++17
+IndentWidth: 4
+---
+Language: Cpp
+PointerAlignment: Right
+AlignAfterOpenBracket: Align
+DerivePointerAlignment: false
+AlignArrayOfStructures: Right
+BreakConstructorInitializers: BeforeComma
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+
+NamespaceIndentation: All
+CompactNamespaces: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignEscapedNewlines: Left
+AlignTrailingComments: true
+AllowShortFunctionsOnASingleLine: All
+
+ColumnLimit: '100'
+
+AlwaysBreakTemplateDeclarations: Yes
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignConsecutiveAssignments: AcrossEmptyLines
+AllowShortLambdasOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: false
+
+BreakBeforeBraces: Linux
+---
+
